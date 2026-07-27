@@ -1,8 +1,26 @@
 aid: good-glamm-group
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/good-glamm-group.png
 name: Good Glamm Group
-description: 'Good Glamm Group is a company surfaced as a portfolio company of bessemer-venture-partners,
-  prosus-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Good Glamm Group is an India-based content-to-commerce conglomerate
+  in the personal care and cosmetics sector, founded in September 2021 by Darpan Sanghvi,
+  Priyanka Gill, and Naiyya Saggi and briefly valued as a unicorn after 2021 Series D
+  funding. Its house of brands includes MyGlamm, St.Botanica, The Moms Co, Sirona,
+  Organic Harvest, POPxo, ScoopWhoop, BabyChakra, MissMalini, and Tweak, spanning
+  India, Dubai, Singapore, and the USA. The group was surfaced as a portfolio company
+  of Bessemer Venture Partners and Prosus Ventures. As of this enrichment pass the
+  goodglamm.com domain serves a Corporate Insolvency Resolution Process (CIRP)
+  stakeholder portal, and no public developer API or documentation surface was found.'
 url: https://raw.githubusercontent.com/api-evangelist/good-glamm-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,20 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: insolvency-cirp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Beauty
+- Personal Care
+- Cosmetics
+- D2C
+- E-commerce
+- Content-to-Commerce
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/good-glamm-group-domain-security.yml
 - type: Website
   url: https://www.goodglamm.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
