@@ -23,15 +23,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/good-glamm-group.png
 name: Good Glamm Group
-description: 'Good Glamm Group is an India-based content-to-commerce conglomerate
-  in the personal care and cosmetics sector, founded in September 2021 by Darpan Sanghvi,
-  Priyanka Gill, and Naiyya Saggi and briefly valued as a unicorn after 2021 Series D
-  funding. Its house of brands includes MyGlamm, St.Botanica, The Moms Co, Sirona,
-  Organic Harvest, POPxo, ScoopWhoop, BabyChakra, MissMalini, and Tweak, spanning
-  India, Dubai, Singapore, and the USA. The group was surfaced as a portfolio company
-  of Bessemer Venture Partners and Prosus Ventures. As of this enrichment pass the
-  goodglamm.com domain serves a Corporate Insolvency Resolution Process (CIRP)
-  stakeholder portal, and no public developer API or documentation surface was found.'
+description: Good Glamm Group is an India-based content-to-commerce conglomerate in the personal care
+  and cosmetics sector, founded in September 2021 by Darpan Sanghvi, Priyanka Gill, and Naiyya Saggi and
+  briefly valued as a unicorn after 2021 Series D funding. Its house of brands includes MyGlamm, St.Botanica,
+  The Moms Co, Sirona, Organic Harvest, POPxo, ScoopWhoop, BabyChakra, MissMalini, and Tweak, spanning
+  India, Dubai, Singapore, and the USA. The group was surfaced as a portfolio company of Bessemer Venture
+  Partners and Prosus Ventures. As of this enrichment pass the goodglamm.com domain serves a Corporate
+  Insolvency Resolution Process (CIRP) stakeholder portal, and no public developer API or documentation
+  surface was found.
 url: https://raw.githubusercontent.com/api-evangelist/good-glamm-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -43,7 +42,7 @@ x-tier-reason: portfolio-lead
 x-status: insolvency-cirp
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-16'
 tags:
 - Company
 - Consumer
@@ -54,6 +53,7 @@ tags:
 - E-Commerce
 - Content-to-Commerce
 - India
+- Direct to Consumer
 tags_raw:
 - Company
 - Consumer
@@ -64,6 +64,7 @@ tags_raw:
 - E-commerce
 - Content-to-Commerce
 - India
+- Direct to Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
